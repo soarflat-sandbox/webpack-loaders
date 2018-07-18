@@ -1,0 +1,16 @@
+{
+  "name": "webpack-loaders",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-serve --content docs --port 1919 --open",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-serve": "^2.0.2"
+  }
+}
